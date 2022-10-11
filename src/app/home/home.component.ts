@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor() { /*promise syntax*/
+    new Promise(function(resolve, reject){
+      // our logic goes here ..
+      });
+  }
 
   ngOnInit(): void {
   }
